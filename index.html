@@ -5,114 +5,202 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soldiers 4 Christ</title>
+    <title>Soldiers for Christ</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-    <div class="navbar-1">
-        <h2 class="nav-title-1">Soldiers For Christ</h2>
-        <a href="index.html" class="nav-link-1">Home</a>
-        <!-- <a href="#" class="nav-link-1">Downloads</a> -->
-        <a href="recording.html" class="nav-link-1">Recordings</a>
-        <a href="homework.html" class="nav-link-1">Homework</a>
-        <a href="otherresources.html" class="nav-link-1">Other Resources</a>
-        <!-- <a href="#" class="nav-link-1">Chat</a> -->
-    </div>
-
-    <div class="header-1">
-        <!-- <h1 class="header-title-1">Soldiers For Christ</h1> -->
-    </div>
-
-    <!-- <div class="main-1">
-        <div class="main-image-1"></div>
-        <h1 class="main-title-1">Soldiers For Christ</h1>
-    </div> -->
-
-    <div class="main-1" style="height: 100vh;">
-        <div class="main-image-1" style="background-image: url('challenge.svg'); background-position: center;">
-        </div>
-        <h1 class="main-title-1">- This Week's Challenge -</h1>
-        <h2 class="main-title-1" style="font-size: 25px; margin-top: -20px;"><b>Hand out 20 tracks</b> <u>and</u>
-            <b>talk
-                    with 2 people about
-                    the Gospel</b>
-        </h2>
-        <h2 class="main-title-1" style="font-size: 25px; margin-top: -20px;">BONUS! Try to find someone to go door knocking with, and door nock at 20 doors!</h2>
-    </div>
-
-    <div class="main-3">
-        <div class="main-item-3">
-            <div class="main-item-image-3" style="background-image: url('track.svg'); background-size: 110px; background-repeat: no-repeat; background-position: center; background-size: 70%;">
+<body class="bg-first">
+    <div class="w-90 sm-sm-w-100 w-80 margin-auto">
+        <div class="navbar flex flex-row flex-row-center-y">
+            <div style="display: flex; flex-direction: row; justify-content: flex-start; align-items: center; align-content: center; width: 100%;">
+                <!-- <img src="imgs/icon.svg" alt="" class="navbar-icon logo-hide"> -->
+                <h1 style="font-weight: 100;" class="color-second font-title margin-left-none">Soldiers for Christ
+                </h1>
             </div>
-            <h2 class="main-item-text-3" style="font-size: 25px; margin-bottom: 20px; color: #d75200;"><b>Tracks
-                        Handed Out</b>
-            </h2>
-            <h2 class="main-item-text" style="text-align: left; margin-bottom: 20px;">Last Week <b>30</b></h2>
-            <h2 class="main-item-text" style="text-align: left; margin-bottom: 40px;">Total <b>94</b></h2>
-        </div>
-        <div class="main-item-3">
-            <div class="main-item-image-3" style="background-image: url('data:image/png;base64,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'); background-size: 95px; background-repeat: no-repeat; background-position: center; background-size: 100%;">
+            <div class="flex flex-row-end-x w-100 margin-right-none navbar-inner" id="drop">
+                <a href="index.html" class="navbar-link color-second text-decoration-none font-text font-weight-100 font-size-large padding-medium padding-left-large padding-right-large">Home</a>
+                <a href="about.html" class="navbar-link color-second text-decoration-none font-text font-weight-100 font-size-large padding-medium padding-left-large padding-right-large">About</a>
+                <a href="blog.html" class="navbar-link color-second text-decoration-none font-text font-weight-100 font-size-large padding-medium padding-left-large padding-right-large">Blog</a>
+                <a href="recording.html" class="navbar-link color-second text-decoration-none font-text font-weight-100 font-size-large padding-medium padding-left-large padding-right-large">Recordings</a>
+                <a href="resources.html" class="navbar-link color-second text-decoration-none font-text font-weight-100 font-size-large padding-medium padding-left-large padding-right-large">Resources</a>
+                <!-- <a href="#" class="navbar-link-button color-first bg-third text-decoration-none font-text font-weight-100 font-size-xlarge padding-small padding-left-large padding-right-large margin-left-medium sm-margin-left-none sm-margin-top-medium">Link</a> -->
+
             </div>
-            <h2 class="main-item-text-3" style="font-size: 25px; margin-bottom: 20px; color: #d75200;"><b>People
-                        Talked To</b>
-            </h2>
-            <h2 class="main-item-text" style="text-align: left; margin-bottom: 20px;">Last Week <b>1</b></h2>
-            <h2 class="main-item-text" style="text-align: left; margin-bottom: 40px;">Total <b>4</b></h2>
+            <a href="javascript:void(0);" style="height: fit-content;" class="icon flex-row-center-y flex-row-start-x margin-right-none" onclick="onMenuClick()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
-    </div>
-
-
-    <div class="main-3">
-        <div class="main-item-3">
-            <div class="main-item-image-3" style="background-image: url('data:image/png;base64,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'); background-size: 110px; background-repeat: no-repeat; background-position: center;">
+        <div class="header w-100 flex flex-row sm-flex-column">
+            <div class="w-100 h-100 flex flex-column flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <h1 class="font-weight-900 font-title color-second text-left margin-none main-heading-text main-heading-text padding-none margin-left-none margin-bottom-none sm-margin-top-xxlarge">
+                    Soldiers for Christ</h1>
+                <hr style="width: 75px; margin-left: 0px; margin-bottom: 15px; border-color: #ffffff; border: none; height: 2px; background-color: #242424;">
+                <p class=" font-weight-100 text-left font-size-xlarge color-fourth margin-top-none font-text margin-left-none margin-none w-100 sm-w-100 text-justify">
+                    "Thou therefore endure hardness, as a good soldier of Jesus Christ. No man that warreth entangleth himself with the affairs of this life; that he may please him who hath chosen him to be a soldier. And if a man also strive for masteries, yet is he not
+                    crowned, except he strive lawfully."
+                </p>
+                <span style="text-transform: uppercase; font-weight: 900; margin-top: 10px;" class="font-weight-100 text-left font-size-xlarge color-third margin-top-none font-text margin-left-none margin-none w-80 sm-w-100 text-justify">II
+                        Timothy
+                        2:3-5</span>
             </div>
-            <p class="main-item-text-3">Recording</p>
-            <a href="recording.html" class="main-item-button-3" style="text-decoration: none; cursor: pointer;">Go
-                    There</a>
-        </div>
-        <div class="main-item-3">
-            <div class="main-item-image-3" style="background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAeFBMVEX///8AAACnp6dXV1dTU1P7+/urq6sYGBjX19dLS0tOTk4VFRX4+PgRERHp6enU1NQqKiodHR0xMTHNzc3d3d0LCwvAwMCBgYF6enolJSV0dHRoaGji4uLv7+8gICBeXl61tbWKioqdnZ07OztFRUWTk5PExMSenp66nYldAAAE4klEQVR4nO3d6VrqMBAG4FQpAlbWAyiLorjc/x0eUChJO81CJ5nRZ75/tBqfF6ckXRKUkkgkEolEIpFIJBI+2exuCNKdITOKdUaU6T9UCJkjy563iI4NnSPLPhAhO0rICyLkhhJyKxCB/CIIYpvOdATSHIG0iUAsEUibCMQSgbSJQCwRSJsIxBKBtElKyKiLeDFukVNBhu8ZaiafNJB8j+vIsrlxVTEZJMLFrjUJZIkPmZJAXvEhexJIDx/ySgJRj9iOfUEDUV/TOSJjsjJvIEjPbolA2kQglgikTQRiyV+HbJa3HbyszdORhJAdZr9+zCMNZPuA7MiyHQnkDd2RDUggf+bE6gsfQvMf+TPHiFpgf2otjeYdkO1mmMN7giFquLxFzKrytJwFUnwN7g975tPVCAUSN42Q/FUr6n4vpE1WkI15YXAe8mAaJ0hvUj20HuHfh8II0rurf0isvNvkA4EcARI2ENjhL+ECaXJ4SxohuXcwILpj/DZbrIMlDZC3p6Y3CMj4rS1Ed3S+r67qYwuvzy4YsgpgeP+pZojhOP2HdYnPGwVCRoGOLAt7zL0CgRyGZO7RxyPdHwl7ONyEwA5D0r8SEn5i9drUvhvS5DAk7hEk0j3ExdWQZocucR+E8MEeelf3PcihQ4z+ozY3ZnHeM4Wa8YBs+0GOQeBEkAvE7AcfapJzfzK/EnJ4p7r+CZ6ZU0Kq/XlNUha5860iHaJMa+OSquTzvGPoapMUAqQi+ThvLxqaKsMNYkqK80hp4myTB6QzACVFudl94YgFpJMXkETbeONskwPk2A8CEm3TnfMQ4QD56c9rEn2Dx1COHnIel+SmRHfs7c19hxxyGV8Zkk/txbOzE1E0kN495DAlWiZeIwcCSPN4F5T4OQggtnE7IPF0pIfYHIDE15EcYnfUJN6O1BCX4yDpXOVIDHE7VNG/ypEWEtGRFDLSHANkR0pIVEdCSFxHOkhkRzJIbEcqyOg+siMRJL4jDSSBIwkkhSMFJIkjASSNIz4kkSM6JJUjNiSZIzLEcMBXC5EccSEJHVEhKR0xIUkdESGBjruWawRGgyR2RIP4OAaIjlgQ3dH3cAQ9GQsmDiS9Iw6EwBEFQuGIASFxRIDQOPAhPo4+vgMfMqVxoENmRA50yGWRhfkG/IFIDnSI9uDzGLo9rjs4z9XVKguUGA7OEHP5jprEdHCGVB6pr0gqDsaQWZZZJFUHY0h9YRhNUtTWuuILASZrlJK6gy+krKxbrX8/SQAHX0hZWYttVaI77s472ULOlXWfq4rEcPS4L15RVtZxeTNDsjEc7FfhuFTW8ZUu0aYZHcdX3CFaZR2jSwwHd4hRWccAkp/xLnOIWVnH1CSncTtzSKWyDh+53T7oYA6pVFaxe6mut1CeR/GG6JUFKPTzQd6QsrIOCmgVD+28ljWkrKwHeC0S/fycNcSxtONev2/AGmKbbj1emjM7OUNq54aNCsUb0lBZ4yV06YozBKosWKFYQ7b+CsUaUvgrFGuIPt/aoVC8IbO5r0LxhqjZ3lOhmEMOx4l71uMpzCH+EYglAmkTgVgikDYRiCUCaROBWFJC/Neca5+oEIoIRCC/ANKlhGB+rfmf+aJ5tXb/vVh58j439klOJtm3frC/kuEuYL05vAQu3i2RSCQSiUQikUgkTPIfqedZjmUGcMoAAAAASUVORK5CYII='); background-size: 105px; background-repeat: no-repeat; background-position: center;">
+            <div class="w-100 h-100 flex flex-column flex-column-end-x flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <img src="./yannick-pulver-FAU2NI1Uixg-unsplash.jpg" class="sm-w-100 w-80 margin-right-large sm-margin-auto sm-margin-top-xxlarge sm-margin-bottom-xxlarge" style="background-position: center; height: auto; " alt="">
             </div>
-            <p class="main-item-text-3">Homework</p>
-            <a href="homework.html" class="main-item-button-3" style="text-decoration: none; cursor: pointer;">Go
-                    There</a>
         </div>
-        <div class="main-item-3">
-            <div class="main-item-image-3" style="background-image: url('data:image/png;base64,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'); background-size: 95px; background-repeat: no-repeat; background-position: center;">
+        <div class="main-area w-100 flex flex-row-rev sm-flex-column" style="justify-content: space-between;">
+            <div class="w-100 h-100 flex flex-column flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <h1 class="font-weight-900 font-title color-second text-left margin-none main-heading-text padding-none margin-left-none margin-bottom-none sm-margin-top-medium">
+                    Purpose</h1>
+                <hr style="width: 75px; margin-left: 0px; margin-bottom: 15px; border-color: #ffffff; border: none; height: 2px; background-color: #242424;">
+                <p class=" font-weight-100 text-left font-size-xlarge color-fourth margin-top-none font-text margin-left-none margin-none w-100 sm-w-100 text-justify">
+                    My purpose of starting this team, is to turn teenagers that want to follow God, or don't know how to follow God, into Soldiers for Christ. I have a burden for teens and I feel that we teens should be doing more than school, TV, and video games all day.
+                    God has a purpose for all of us and a command for all that are His children, and that call (command) is "The Great Commision". God told <b>all</b> of His followers to go unto <b>all</b> the world preaching the Gospel.
+                    Many people have change the Great Commission from a command to a sudgestion, but it is no sudgestion. God doesn't sudgest things He commands things.
+                </p>
+                <!-- <span style="text-transform: uppercase; font-weight: 900; margin-top: 10px;" class="font-weight-100 text-left font-size-xlarge color-third margin-top-none font-text margin-left-none margin-none w-80 sm-w-100 text-justify">II
+                        Timothy
+                        2:3-5</span> -->
             </div>
-            <p class="main-item-text-3">Other Resources</p>
-            <a href="otherresources.html" class="main-item-button-3" style="text-decoration: none; cursor: pointer;">Go There</a>
+            <div class="w-100 h-100 flex flex-column flex-column-start-x flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <img src="./mark-fletcher-brown-nN5L5GXKFz8-unsplash.jpg" class="sm-w-100 w-80 margin-left-none sm-margin-auto sm-margin-top-xxlarge sm-margin-bottom-xxlarge" style="background-position: center; height: auto; box-shadow: -20px -20px 0px 0px #e8e0d4;"
+                    alt="">
+            </div>
+        </div>
+        <div class="main-area w-100 flex flex-row sm-flex-column">
+            <div class="w-100 h-100 flex flex-column flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <h1 class="font-weight-900 font-title color-second text-left margin-none main-heading-text padding-none margin-left-none margin-bottom-none sm-margin-top-medium">
+                    What do we talk about?</h1>
+                <hr style="width: 75px; margin-left: 0px; margin-bottom: 15px; border-color: #ffffff; border: none; height: 2px; background-color: #242424;">
+                <p class=" font-weight-100 text-left font-size-xlarge color-fourth margin-top-none font-text margin-left-none margin-none w-100 sm-w-100 text-justify">
+                    The topics that we discuss is walking with God, fighting your spiritual battles, and making disciples for the Lord.
+                </p>
+                <!-- <span style="text-transform: uppercase; font-weight: 900; margin-top: 10px;" class="font-weight-100 text-left font-size-xlarge color-third margin-top-none font-text margin-left-none margin-none w-80 sm-w-100 text-justify">II
+                                        Timothy
+                                        2:3-5</span> -->
+            </div>
+            <div class="w-100 h-100 flex flex-column flex-column-end-x flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <img src="./pablo-heimplatz-EAvS-4KnGrk-unsplash.jpg" class="sm-w-100 w-80 margin-left-non sm-margin-auto sm-margin-top-xxlarge sm-margin-bottom-xxlarge" style="background-position: center; height: auto; box-shadow: 20px -20px 0px 0px #e8e0d4;" alt="">
+            </div>
+        </div>
+        <div class="main-area w-100 flex flex-row-rev sm-flex-column">
+            <div class="w-100 h-100 flex flex-column flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <h1 class="font-weight-900 font-title color-second text-left margin-none main-heading-text padding-none margin-left-none margin-bottom-none sm-margin-top-medium">
+                    Who is this for?</h1>
+                <hr style="width: 75px; margin-left: 0px; margin-bottom: 15px; border-color: #ffffff; border: none; height: 2px; background-color: #242424;">
+                <p class=" font-weight-100 text-left font-size-xlarge color-fourth margin-top-none font-text margin-left-none margin-none w-100 sm-w-100 text-justify">
+                    If you are within the age of 12 and 20, then we want you! There aren't really qualifications to join, but the purpose of this team is to turn an average Christian teen into a Soldier of Christ. This team is focused on those that are Christians not for
+                    the lost.
+                </p>
+                <!-- <span style="text-transform: uppercase; font-weight: 900; margin-top: 10px;" class="font-weight-100 text-left font-size-xlarge color-third margin-top-none font-text margin-left-none margin-none w-80 sm-w-100 text-justify">II
+                                Timothy
+                                2:3-5</span> -->
+            </div>
+            <div class="w-100 h-100 flex flex-column flex-column-start-x flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <img src="./nick-fewings-2ykkF3oQb_c-unsplash.jpg" class="sm-w-100 w-80 margin-left-none sm-margin-auto sm-margin-top-xxlarge sm-margin-bottom-xxlarge" style="background-position: center; height: auto; box-shadow: -20px -20px 0px 0px #e8e0d4;" alt="">
+            </div>
+        </div>
+        <div class="main-area w-100 flex flex-row sm-flex-column">
+            <div class="w-100 h-100 flex flex-column flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <h1 class="font-weight-900 font-title color-second text-left margin-none main-heading-text padding-none margin-left-none margin-bottom-none sm-margin-top-medium">
+                    What do we do?</h1>
+                <hr style="width: 75px; margin-left: 0px; margin-bottom: 15px; border-color: #ffffff; border: none; height: 2px; background-color: #242424;">
+                <p class=" font-weight-100 text-left font-size-xlarge color-fourth margin-top-none font-text margin-left-none margin-none w-100 sm-w-100 text-justify">
+                    About every week on Saturday we have a meeting that is hosted on Google Meet. In the meetings we have a Bible Lesson or Discussion, Prayer time, and a chat time. Meetings can last from 45 minutes to several hours, but that is rare.
+                </p>
+                <!-- <span style="text-transform: uppercase; font-weight: 900; margin-top: 10px;" class="font-weight-100 text-left font-size-xlarge color-third margin-top-none font-text margin-left-none margin-none w-80 sm-w-100 text-justify">II
+                                                Timothy
+                                                2:3-5</span> -->
+            </div>
+            <div class="w-100 h-100 flex flex-column flex-column-end-x flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <img src="./aaron-burden-9zsHNt5OpqE-unsplash.jpg" class="sm-w-100 w-80 margin-left-none sm-margin-auto sm-margin-top-xxlarge sm-margin-bottom-xxlarge" style="background-position: center; height: auto; box-shadow: 20px -20px 0px 0px #e8e0d4;" alt="">
+            </div>
+        </div>
+        <div class="main-area w-100 flex flex-row-rev sm-flex-column">
+            <div class="w-100 h-100 flex flex-column flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <h1 class="font-weight-900 font-title color-second text-left margin-none main-heading-text padding-none margin-left-none margin-bottom-none sm-margin-top-medium">
+                    Why should you join?</h1>
+                <hr style="width: 75px; margin-left: 0px; margin-bottom: 15px; border-color: #ffffff; border: none; height: 2px; background-color: #242424;">
+                <p class=" font-weight-100 text-left font-size-xlarge color-fourth margin-top-none font-text margin-left-none margin-none w-100 sm-w-100 text-justify">
+                    We (Christians) should all strive to have a close and personal walk God. You might be wondering "Why should I have a close walk with God? What's wrong with how it is now?" let me ask you something, how much time do you spend in prayer and reading God's
+                    word? Five minutes maybe ten? Let me tell you that is not even close to enough. In this course you will learn how to walk with God and pray for over an hour if not longer. You also might be wondering "Why do I need to know how to fight
+                    my spiritual battles?" Let me ask you another question to answer your question. How do you fight your spiritual battles? Are you prepared with the word of God? Do you have on the whole armor of God? Who are you depending on to fight?
+                    Yourself or God?
+                    <!-- <span style="text-transform: uppercase; font-weight: 900; margin-top: 10px;" class="font-weight-100 text-left font-size-xlarge color-third margin-top-none font-text margin-left-none margin-none w-80 sm-w-100 text-justify">II
+                                                        Timothy
+                                                        2:3-5</span> -->
+            </div>
+            <div class="w-100 h-100 flex flex-column flex-column-start-x flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <img src="./mark-fletcher-brown-nN5L5GXKFz8-unsplash.jpg" class="sm-w-100 w-80 margin-left-none sm-margin-auto sm-margin-top-xxlarge sm-margin-bottom-xxlarge" style="background-position: center; height: auto; box-shadow: -20px -20px 0px 0px #e8e0d4;"
+                    alt="">
+            </div>
+        </div>
+        <div class="main-area w-100 flex flex-row sm-flex-column">
+            <div class="w-100 h-100 flex flex-column flex-column-center-y sm-flex-column-center-y sm-flex-column-start-x">
+                <h1 class="font-weight-900 font-title color-second text-left margin-none main-heading-text padding-none margin-left-none margin-bottom-none sm-margin-top-medium">
+                    Want to join?</h1>
+                <hr style="width: 75px; margin-left: 0px; margin-bottom: 15px; border-color: #ffffff; border: none; height: 2px; background-color: #242424;">
+                <p class=" font-weight-100 text-left font-size-xlarge color-fourth margin-top-none font-text margin-left-none margin-none w-100 sm-w-100 text-justify">
+                    If you want to grow your walk with the Lord, please do consider joining my team. I would love to have you. Just contact me. If you have any questions please feel free to ask.
+                </p>
+                <!-- <span style="text-transform: uppercase; font-weight: 900; margin-top: 10px;" class="font-weight-100 text-left font-size-xlarge color-third margin-top-none font-text margin-left-none margin-none w-80 sm-w-100 text-justify">II
+                                        Timothy
+                                        2:3-5</span> -->
+            </div>
+            <div class="w-100 h-100 flex flex-column flex-column-center-x flex-column-center-y sm-flex-column-center-y sm-flex-column-center-x sm-margin-top-large">
+                <form action="https://formspree.io/f/xoqbknnj" method="POST" class="hidden1 w-40 sm-w-80">
+                    <p class=" font-weight-100 text-left font-size-large margin-top-small color-fourth margin-top-none font-text margin-left-large sm-margin-left-none  margin-none">
+                        First name
+                    </p>
+                    <input class="w-100 form-input font-weight-100 text-left font-size-medium color-second margin-top-none font-text margin-left-large sm-margin-auto margin-none" type="text" name="firstName" id="firstName" placeholder="First Name">
+
+                    <p class=" font-weight-100 text-left font-size-large margin-top-small color-fourth margin-top-none font-text sm-margin-left-none margin-left-large margin-none">
+                        Last name
+                    </p>
+                    <input class=" w-100 form-input font-weight-100 text-left font-size-medium color-second margin-top-none font-text margin-left-large sm-margin-auto margin-none " type="text " name="lastName " id="lastName " placeholder="Last Name ">
+
+                    <p class=" font-weight-100 text-left font-size-large margin-top-small color-fourth margin-top-none font-text sm-margin-left-none margin-left-large margin-none ">
+                        Email
+                    </p>
+                    <input class=" w-100 form-input font-weight-100 text-left font-size-medium color-second margin-top-none
+                            font-text sm-margin-left-none margin-left-large margin-none" type="email" name="email" id="email" placeholder="Email">
+                    <br>
+                    <!-- <p class="header-main-text" style="font-size: 17px; margin-top: 0px; color: #bcbcbc; text-transform: uppercase; letter-spacing: 3px; font-weight: 900;">
+                                                                    Plan
+                                                                </p> -->
+                    <p class=" font-weight-100 text-left font-size-large margin-top-small color-fourth margin-top-none font-text sm-margin-left-none margin-left-large margin-none ">
+                        Message
+                    </p>
+                    <textarea style="min-height: 200px; margin-top: 0px;" name="message" id="message" class="form-input sm-margin-left-none margin-left-large form-input font-weight-100 text-left font-size-medium color-second margin-top-none font-text margin-left-large w-100"
+                        placeholder="Message..."></textarea>
+                    <br>
+                    <button type="submit" class="navbar-link-button sm-margin-left-none margin-left-large bg-second border-none padding-medium font-size-medium color-first padding-left-large padding-right-large" style=" margin-top: 10px;">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="w-100 bg-fifth flex flex-row sm-flex-column padding-top-xxlarge padding-bottom-xxlarge" style="border-radius: 15px 15px 0px 0px;">
+            <div class="w-100 flex flex-column flex-column-center-x flex-column-center-y">
+                <h1 class="font-title font-size-large color-second text-center" style="font-size: 50px;">Soldiers for Christ
+                </h1>
+            </div>
+            <div class="w-100 flex flex-column flex-column-center-x flex-column-center-y">
+                <a href="" class="text-decoration-none color-second font-size-large font-text">Home</a>
+                <a href="" class="text-decoration-none color-second font-size-large font-text">About</a>
+                <a href="" class="text-decoration-none color-second font-size-large font-text">Blog</a>
+                <a href="" class="text-decoration-none color-second font-size-large font-text">Recordings</a>
+                <a href="" class="text-decoration-none color-second font-size-large font-text">Resource</a>
+            </div>
+
         </div>
     </div>
 
-    <div class="main-4">
-        <div class="main-image-4" style="background-image: url('data:image/jpeg;base64,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');">
-        </div>
-        <h1 class="main-title-4">We stand on the Rock of our Lord Jesus Christ</h1>
-    </div>
-
-    <div class="main-5">
-        <div class="main-image-5" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSub4G_q4-wvLuO3jAr2YyhtyRwhcpHNBnnsA&usqp=CAU');">
-        </div>
-        <h1 class="main-title-5">We wait for the sound of the trumpet calling all of us home</h1>
-    </div>
-
-    <div class="footer-1">
-        <div class="footer-container-1">
-            <h2 class="footer-title-1">Soldiers for Christ</h2>
-        </div>
-        <div class="footer-container-1">
-            <a class="footer-link-1" href="index.html">Home</a>
-            <a class="footer-link-1" href="recording.html">Recordings</a>
-            <a class="footer-link-1" href="homework.html">Homework</a>
-        </div>
-        <div class="footer-container-1">
-            <a class="footer-link-1" href="otherresources.html">Other Resources</a>
-            <a class="footer-link-1" href="#"></a>
-            <a class="footer-link-1" href="#"></a>
-        </div>
-    </div>
+    <script>
+        function onMenuClick() {
+            var navbar = document.getElementById('drop');
+            var responsive_class_name = 'responsive'
+            navbar.classList.toggle(responsive_class_name)
+        }
+    </script>
 </body>
 
 </html>
