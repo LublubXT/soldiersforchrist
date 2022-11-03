@@ -149,7 +149,7 @@ body {
 .blog-item:hover {
     /* background-color: ; */
     background-color: var(--fifth);
-    cursor: pointer;
+    /* cursor: pointer; */
     /* box-shadow: 10px 10px 0px 0px var(--third); */
     /* border: 1px solid var(--second); */
 }
