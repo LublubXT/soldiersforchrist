@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&family=Patrick+Hand&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fredericka+the+Great&family=Noticia+Text&family=Patrick+Hand&family=Quicksand&display=swap');
  :root {
     --first: #eeeeee;
     --second: #252525;
@@ -6,7 +6,7 @@
     --fourth: #a3a3a3;
     --fifth: #e8e0d4;
     --shadow: #e1e1e1;
-    --title: 'Noticia Text', serif;
+    --title: 'EB Garamond', serif;
     --text: "Quicksand", sans-serif;
 }
 
