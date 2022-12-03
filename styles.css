@@ -1570,7 +1570,7 @@ h1 {
         justify-content: space-between;
         align-items: flex-start;
         align-content: flex-start;
-        background-color: #e8e0d4;
+        background-color: var(--first);
         padding: 50px 23px;
         margin: 120px auto;
         border-radius: 0px;
